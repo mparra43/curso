@@ -1,60 +1,71 @@
 <!DOCTYPE HTMIL>
-<html lang="es" >
-     <head>
-         <img src="logo.jpg"/>
-         <title>Cigarreria Bar Los cristales</title>
-         <meta charset="UTF-8" />
-          <meta name="description" content="licores"/>
-          <meta name="description" content="abarrotes"/>
-          <meta name="description" content="domicilios 24 horas"/>
-     </head>
-     <body>
-         <header>
-            <h1>Cigarreria Bar los cristales</h1>
-         </header>
-         <nav>
-            <ul>
-                <li>
-                    <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea1.html" >productos</a>
-                </li>
-                <li>
-                   <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea.2.html" >licores</a>
-                </li>
-                <li>
-                <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea3.html" >domicilios</a>
-               </li>
-            </ul>
-        </nav>
-         
-         <section>
-             <article>
-                 <h1>promociones</h1>
-                 <time datetime="30-6-2020">valido hasta 30 de junio del 2020</time>
-             </article>
-         </section>
-         <aside>
-             pide tu domicilio
-             
-             
-             <footer>
-                 <h4>Síguenos en nuetras redes</h4> 
-                 <ul>
-                     <li>
-                        <a href="https://www.facebook.com/barlos.cristales.10">facebook</a>
-                     </li>
-                     <li>
-                        <a href="https://www.instagram.com/loscrist/?hl=es-la">instagram</a>
-                     </li>
-                 </ul> 
-             </footer>
-         
-         </aside>
+<html lang="es">
 
-         <footer>
-             <h3>El exceso de alcohol es perjudicial para la salud. Ley 30 de 1986. Prohíbase el expendio de bebidas embriagantes a menores de edad y mujeres embarazadas. Ley 124 de 1994.</h3>
-        </footer>
-     </body>
-</html>    
-        
-          
-          
+<head>
+    <title>Cigarreria Bar Los cristales</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="licores" />
+    <meta name="description" content="abarrotes" />
+    <meta name="description" content="domicilios 24 horas" />
+</head>
+
+<body>
+    <div><img src="logo.jpg" /></div>
+    <nav>
+        <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea1.html">inicio</a>
+        <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea.2.html">víveres</a>
+        <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea3.html">licores</a>
+        <a href="#promociones">promociones</a>
+        <a href="#domicilios">Domicilios</a>
+
+    </nav>
+    <header>
+        <h1>Cigarreria Bar los cristales</h1>
+    </header>
+    <section>
+        <div>
+            <h1 id="promociones"> promociones</h1>
+        </div>
+
+        <div>
+            <h1 id="domicilios"> ¡Pide tu domicilio!</h1>
+            <form>
+                <label for="fname">Nombre:</label>
+                <input type="text" name="Nombre" id="Nombre" /><br />
+                <label for="direccion">Dirección</label>
+                <textarea name="direccion" id="direccion" placeholder="calle,#numero-numero"></textarea><br />
+                <label for="telefono">Celular</label>
+                <input type="tel" id="telefono" name="telefono"><br />
+                <label for="efectivo">Forma de pago:</label>
+                <label for="efectivo">efectivo</label>
+                <input type="button" id="efectivo" name="efectivo" /> datafono &nbsp;<input type="button" /><br />
+                <button type="submit">enviar</button>
+            
+            </form>
+        </div>
+    
+
+    </section>
+
+
+    <footer>
+        <h4>Síguenos en nuetras redes</h4>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/barlos.cristales.10">facebook</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/loscrist/?hl=es-la">instagram</a>
+            </li>
+        </ul>
+    </footer>
+
+    </aside>
+
+    <footer>
+        <h3>El exceso de alcohol es perjudicial para la salud. Ley 30 de 1986. Prohíbase el expendio de bebidas
+            embriagantes a menores de edad y mujeres embarazadas. Ley 124 de 1994.</h3>
+    </footer>
+</body>
+
+</html>

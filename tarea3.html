@@ -2,48 +2,42 @@
 <html lang="es">
 
 <head>
-   <img src="logo.jpg" />
    <title>Cigarreria Bar Los cristales</title>
    <meta charset="UTF-8" />
    <meta name="description" content="licores" />
    <meta name="description" content="abarrotes" />
    <meta name="description" content="domicilios 24 horas" />
+   <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
+   <div><img src="logo.jpg" /></div>
+   <div>
+      <nav>
+         <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea1.html">inicio</a>
+         <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea.2.html">víveres</a>
+         <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea3.html">licores</a>
+         <a href="#promociones">promociones</a>
+         <a href="#domicilios">Domicilios</a>
+      </nav>
+
+   </div>
+
    <header>
       <h1>Cigarreria Bar los cristales</h1>
    </header>
-
-   <nav>
-      <ul>
-         <li>
-            <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea1.html">productos</a>
-         </li>
-         <li>
-            <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea.2.html">licores</a>
-         </li>
-         <li>
-            <a href="file:///C:/Users/Usuario/Desktop/curso%20html/curso/tarea3.html">domicilios 24 horas
-            </a>
-         </li>
-      </ul>
-   </nav>
    <section>
-      <h3>Pide tu domicilio las 24 horas</h3>
-      <p> nombre &nbsp;<input type="text" /><br />
-         celular &nbsp; <input type="tel" /><br />
-         direccion &nbsp; <input type="address" /><br />
-         apartamento &nbsp;<input type="text" /><br />
-         pago efectivo &nbsp;<input type="button" />
-         datafono &nbsp;<input type="button" /><br />
-      </p>
-   </section>
-   <aside>
-      pide tu domicilio
+      <div>
+         <p>
+            fijo : 6020149
+            celular o whatsApp
+            3102759655-3123348470
 
+         </p>
 
-      <footer>
+      </div>
+
+      <div>
          <h4>Síguenos en nuetras redes</h4>
          <ul>
             <li>
@@ -53,9 +47,30 @@
                <a href="https://www.instagram.com/loscrist/?hl=es-la">instagram</a>
             </li>
          </ul>
-      </footer>
+      </div>
 
-   </aside>
+      <div>
+         <h2 id="domicilios"> ¡Pide tu domicilio!</h2>
+
+         <form>
+
+            <label fname=>Nombre:</label>
+            <input id="casillatexto" type="text" name="Nomsbre" id="Nombre" /><br />
+            <label for="direccion">Dirección</label>
+            <input id="casillatexto" name="direccion" id="direccion"
+               placeholder="calle,#numero-numero"></textarea><br />
+            <label for="telefono">Celular</label>
+            <input id="casillatexto" type="tel" id="telefono" name="telefono"><br />
+            <label for="button">forma de pago:</label>
+            Efectivo &nbsp;<input type="radio" />
+            Datafono &nbsp;<input type="radio" /><br />
+         </form>
+
+      </div>
+
+
+   </section>
+
 
    <footer>
       <h3>El exceso de alcohol es perjudicial para la salud. Ley 30 de 1986. Prohíbase el expendio de bebidas

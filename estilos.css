@@ -1,10 +1,39 @@
+* { margin:0;
+}
 #casillatexto {
-    width: 100%;
+    width: 50%;
     padding: 5px 5px;
-    box-sizing: border-box 100%;}
+    box-sizing: border-box 50%;
+    object-position: 10px ;
+margin: 8px,0;
+
+
+}
  h1 { 
-     font-size:50px;
-    font-family: sans-serif;  
-     
+     font: bold 25px Spectral,serif;
     } 
+header,section{ background-color: white;}
+
+nav { text-align:right;
+    font: bold 25px sant-serif;}
+footer{ 
+    border: 1px solid black;
+    background-color: aliceblue;}
+.Contáctenos, h5 { text-align:center;}  
+.nosotros { text-align:right;}
+#imagen {    
+background-image: url(https://s3-us-west-2.amazonaws.com/laprensa-bucket/wp-content/uploads/2016/04/14164004/360-DOS.jpg);
+background-repeat: no-repeat;
+ height: 553px;}
     
+#logo { 
+    background-image: url(https://www.facebook.com/photo?fbid=139709517071382&set=a.109383400103994);
+    width: 150px;
+        height: 150px;
+        padding: 20px;  }
+
+
+body{ width: 1024px; 
+    background-color: whitesmoke;
+    margin: auto;}        
+        
